@@ -1,0 +1,44 @@
+.form input{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  .form input:focus{
+    border-color: #f5a422;
+  }
+  .form input {
+    padding: 10px 15px;
+  }
+  .form button[type="submit"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    color: #fff;
+    background-color: #f5a422;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 8px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    border-radius: 30px;
+  }
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

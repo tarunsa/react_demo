@@ -1,0 +1,294 @@
+.authBox {
+  width: 700px;
+  overflow: hidden;
+  margin: 80px auto 30px;
+}
+.leftBox {
+  width: 300px;
+  height: 480px;
+  float: left;
+  position: relative;
+  display: block;
+}
+.rightBox {
+  width: 400px;
+  height: 480px;
+  float: right;
+
+  border: 1px solid rgb(175, 74, 91);
+}
+.bgOrange {
+  width: 100%;
+  height: 100%;
+  background-color: "pink";
+  background-image: linear-gradient(#f5a422,#f5a422,#f5a422);
+  border-top-left-radius: 90px;
+}
+.imageAuth {
+  background-image: url('../assets/Login_img.jpeg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 90px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imageAuth {
+  font-size: 20px;
+  position: absolute;
+  color: #ffffff;
+}
+.imageText {
+  font-size: 22px;
+  position: absolute;
+  /* color: #ffffff; */
+}
+.imageText.bold {
+  font-weight: bold;
+  color: black;
+  font-size: larger;
+
+  text-align: center;
+}
+.imageText.style1 {
+  top: 370px;
+  text-align: center;
+  left: 45px;
+}
+.imageText.style2 {
+  font-size: 18px;
+  color: black;
+  top: 400px;
+  text-align: center;
+}
+.box {
+  width: 310px;
+  height: 415px;
+  margin: 32px auto;
+}
+.titleAuth {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color:#f5a422 
+}
+.inputbox {
+  width: 300px;
+  height: 42px;
+  border-bottom: 2px solid #d8d8d8;
+  margin-bottom: 10px;
+}
+.inputs {
+  width: 100%;
+  height: 98%;
+  font-size: 14px;
+  color: #37353f;
+  text-indent: 10px;
+  border: 0;
+  outline: none;
+}
+.contentBox {
+  overflow: hidden;
+  height: 42px;
+  margin-bottom: 30px;
+}
+.checkboxbox {
+  overflow: hidden;
+  float: left;
+}
+.checkbox {
+  float: left;
+  margin-top: 4px;
+}
+.checkboxLabel {
+  float: left;
+  font-size: 14px;
+  margin-left: 5px;
+  color: #37353f;
+}
+.text {
+  float: right;
+  font-size: 14px;
+  color: #f5a422;
+  cursor: pointer;
+}
+.btnAuth {
+  width: 300px;
+  height: 47px;
+  color: #ffffff;
+  background-color: #f5a422;
+  text-align: center;
+  line-height: 47px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btnAuth:hover{
+  background-color: #f5a422;
+  opacity: 0.8;
+}
+.borderbox {
+  width: 300px;
+  height: 47px;
+  position: relative;
+  margin: 20px 0;
+}
+.line {
+  border-bottom: 2px solid #d8d8d8;
+  position: absolute;
+  top: 22px;
+  width: 100%;
+  z-index: -1;
+}
+.text1 {
+  font-size: 14px;
+  color: #818487;
+  z-index: -1;
+}
+.text1.or {
+  position: absolute;
+  top: 14px;
+  left: 140px;
+  width: 25px;
+  height: 16px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.socialmedialinks {
+  overflow: hidden;
+  width: 184px;
+  height: 47px;
+  margin: 0 auto;
+}
+.icAuth {
+  width: 41px;
+  height: 41px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.icAuth:last-child {
+  margin-right: 0;
+}
+.icAuth.google {
+  background-image: url("../assets/google.png");
+  margin-top: -25px;
+}
+.icAuth.facebook {
+  background-image: url(https://img.icons8.com/doodle/2x/facebook-new.png);
+  margin-left: 100px;
+  margin-top: -25px;
+}
+.icAuth.icAuth.google:hover {
+  background-color: red;
+  transition: 0.2s;
+  border-radius: 20px;
+}
+.icAuth.icAuth.facebook:hover {
+  background-color: #006cbc;
+  transition: 0.2s;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .authBox {
+    width: 100%;
+  }
+  .leftBox {
+    display: none;
+  }
+  .rightBox {
+    width: 100%;
+    float: initial;
+    border: 0;
+  }
+}
+
+  /* ###################  Login Header ##################### */
+  .header {
+    display: flex;
+    align-items: center;
+    
+    height: 60px;
+    background-color:teal;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .head_logo {
+    /* height: 60px; */
+    /* object-fit: contain; */
+    color:'#f5a422';
+    text-align: initial;
+    float: left;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  
+  .head_btn {
+    width: 138px;
+    height: 30px;
+    color: #fff;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 9px;
+    text-align: center;
+  
+    padding-top: 7px;
+    border-radius: 5px;
+    background-color: #f5a422;
+    border: none;
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    display: flex;
+  
+    /* margin-right: 600px; */
+  }
+  .head_btn1 {
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 9px;
+    text-align: center;
+  
+    padding-top: 7px;
+    border-radius: 5px;
+    background-color: #f5a422;
+    border: none;
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    display: flex;
+  
+    /* margin-right: 600px; */
+  }
+  
+  .head_btn:hover {
+    background-color: greenyellow;
+    transition: 0.2s;
+  }
+  .head_btn1:hover {
+    background-color: greenyellow;
+    transition: 0.2s;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .head_logo {
+      margin-left: 10px;
+    }
+  }
+
+  /* ###########Register css ################ */
+  
